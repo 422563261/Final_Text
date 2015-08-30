@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>first_page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge，chrome=1">
+	<meta http-equiv="Access-Control-Allow-Origin" content="*">
+</head>
+<body>
+</body>
+<script>
+(function loadXMLDoc(url){//返回网页信息
+    var xmlhttp;
+    if (window.XMLHttpRequest)
+      {// code for IE7+, Firefox, Chrome, Opera, Safari
+      xmlhttp=new XMLHttpRequest();
+      }
+    else
+      {// code for IE6, IE5
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+    xmlhttp.onreadystatechange=function(){
+        if (xmlhttp.readyState==4 && xmlhttp.status==200){
+            web_state = JSON.parse(xmlhttp.responseText).state;
+            console.log(web_state)
+            if (web_state == "1" ) {
+                window.location.href = 'index1.html';
+                console.log(1)
+            }
+            if (web_state == "2" ) {
+                window.location.href = 'index2.html';
+                console.log(2)
+            }
+            if (web_state == "3" ) {
+                window.location.href = 'index3.html';
+                console.log(3)
+            }
+            if (web_state == "4" ) {
+                window.location.href = 'index4.html';
+                console.log(4)
+            }
+            if (web_state == "5" ) {
+                window.location.href = 'index5.html';
+                console.log(5)
+            }
+        }
+    }
+    xmlhttp.open("POST","http://kaohe.zeroling.com/kaohe/state",true);
+    xmlhttp.send();
+})();
+</script>
+</html>

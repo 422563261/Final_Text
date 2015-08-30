@@ -1,0 +1,228 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.wait {
+  font-size: 1rem;
+  color: #a5a5a5;
+  text-align: center;
+}
+.unable {
+  width: 100%;
+  height: 15.65rem;
+  background: #f5f5f9;
+  overflow: hidden;
+}
+.unable img {
+  width: 8.44rem;
+  height: 6.24rem;
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  margin-left: -4.22rem;
+}
+.unable div {
+  font-size: 1.575rem;
+  color: #a5a5a5;
+  text-align: center;
+  margin-top: 11.365rem;
+}
+.ad {
+  height: 3.61rem;
+  line-height: 4.61rem;
+  font-size: 1.62rem;
+  color: #a5a5a5;
+  margin-left: 1.69rem;
+}
+.box {
+  width: 100%;
+  height: 9.675rem;
+}
+@media screen and (max-width: 320px) {
+  .box {
+    height: 8rem;
+  }
+}
+.box .box_container {
+  width: 92.5%;
+  height: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+}
+.box .box_container .sta {
+  position: absolute;
+  top: 1.7rem;
+  right: 1.2rem;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .sta {
+    top: 1.3rem;
+    right: 1.1rem;
+  }
+}
+.box .box_container .sta .qiang,
+.box .box_container .sta .xue,
+.box .box_container .sta .pin {
+  float: left;
+  margin-right: 0.45rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: 100% 100%;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .sta .qiang,
+  .box .box_container .sta .xue,
+  .box .box_container .sta .pin {
+    margin-right: 0.3rem;
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+}
+.box .box_container .sta .qiang {
+  background-image: url('../img/qiang.png');
+}
+.box .box_container .sta .xue {
+  background-image: url('../img/xue.png');
+}
+.box .box_container .sta .pin {
+  background-image: url('../img/pin.png');
+}
+.box .box_container .inf_left {
+  float: left;
+  width: 7.5rem;
+  height: 100%;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_left {
+    width: 6.5rem;
+  }
+}
+.box .box_container .inf_left img {
+  width: 7.5rem;
+  height: 6.5rem;
+  margin-top: 1.28rem;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_left img {
+    margin-top: 1rem;
+    width: 6.5rem;
+    height: 5.5rem;
+  }
+}
+.box .box_container .inf_middle {
+  float: left;
+  width: 12.5rem;
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_middle {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 11.5rem;
+  }
+}
+.box .box_container .inf_middle .name {
+  font-size: 1.69rem;
+  color: #000000;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_middle .name {
+    font-size: 1.5rem;
+  }
+}
+.box .box_container .inf_middle .star {
+  width: 5.5rem;
+  height: 1rem;
+  margin-top: 0.7rem;
+  display: inline-block;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_middle .star {
+    width: 4.5rem;
+    height: 0.8rem;
+    margin-top: 0.5rem;
+  }
+}
+.box .box_container .inf_middle .money {
+  display: inline-block;
+  font-size: 1.34rem;
+  margin-left: 0.8rem;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_middle .money {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+}
+.box .box_container .inf_middle .good {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: inline-block;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_middle .good {
+    width: 1.1rem;
+    height: 1.1rem;
+  }
+}
+.box .box_container .inf_middle .share {
+  margin-top: 0.7rem;
+  font-size: 1.2rem;
+  color: #cccccc;
+  display: inline-block;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_middle .share {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+}
+.box .box_container .inf_middle .num,
+.box .box_container .inf_middle .where {
+  margin-top: 0.7rem;
+  margin-left: 0.3rem;
+  font-size: 1.2rem;
+  color: #cccccc;
+  display: inline-block;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_middle .num,
+  .box .box_container .inf_middle .where {
+    margin-top: 0.5rem;
+    margin-left: 0.2rem;
+    font-size: 1rem;
+  }
+}
+.box .box_container .inf_right {
+  float: right;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_right {
+    margin-top: 3rem;
+  }
+}
+.box .box_container .inf_right .big_num {
+  font-size: 4.5rem;
+  color: #f85800;
+  display: inline-block;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_right .big_num {
+    font-size: 3.5rem;
+  }
+}
+.box .box_container .inf_right .small_num {
+  font-size: 1.46rem;
+  color: #f85800;
+  display: inline-block;
+}
+@media screen and (max-width: 320px) {
+  .box .box_container .inf_right .small_num {
+    font-size: 1rem;
+  }
+}
